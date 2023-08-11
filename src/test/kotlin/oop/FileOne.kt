@@ -13,4 +13,14 @@ fun main(args: Array<String>) {
     var firstPhone=Phone("iPhone14","ios","TypeC")
     var secondPhone=Phone("Samsung","S23","TypeC")
     secondPhone.call(phoneNumber = "0740036109")
+    var teacherOne=Teacher("Wanyama", "erick@test.com","123pass")
+    teacherOne.register()
+    var firstUser = User("Steve","stev@test.com", "pass123")
+    println(firstUser.name)
+    firstUser.setIdNumber("40742217")
+    println(firstUser.getIdNumber())
+    var history=History()
+    history.grading()
+
+
 }
